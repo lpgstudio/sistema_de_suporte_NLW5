@@ -1,0 +1,42 @@
+Foi usado as importações no npm/yarm:
+//iniciar --esta faltando algumas coisas--
+express
+@types/express
+typescript
+ts-node-dev -d
+
+//criar o servidor
+typeorm
+sqlite3
+reflect-metadata
+socket.io
+@types/socket.io
+socket.io-client
+
+//criar as planilhas
+yarn typeorm migration:create -n CreateSettings
+uuid
+@types/uuid
+
+
+Mustache
+
+
+
+GET = Buscar
+POST = Criação
+PUT = Alteração
+DELETE = Deletar
+PATCH = Alterar uma informação especifica
+
+//Tipos de parametros
+Routs Params => Parametros de Rotas
+http://localhost:3333/settings/1
+
+Query Params => Filtros e buscas
+http://localhost:3333/settings/1?search=qualquer&coisas
+
+Body Params => {
+    json.
+}
+
